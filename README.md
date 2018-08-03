@@ -1,2 +1,2 @@
 # MTK_IMEI_Generator
-MediaTek Device IMEI Generator
+Android MediaTek Device IMEI Generator

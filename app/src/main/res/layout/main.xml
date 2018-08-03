@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#272323">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/tv"
+			android:layout_marginTop="10dp"
+			android:textColor="#23D600"
+			android:textSize="25sp"
+			android:layout_gravity="center"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/editText"
+			android:textColor="#E9E8FA"
+			android:gravity="center"
+			android:textIsSelectable="true"
+			android:singleLine="true"
+			android:layout_marginTop="10dp"
+			android:editable="false"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/btn"
+			android:id="@+id/button"
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:textColor="#36EE46"
+			android:textAllCaps="false"
+			android:background="#000000"
+			android:ems="20"
+			android:onClick="onBtn"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/btn2"
+			android:id="@+id/button2"
+			android:background="#000000"
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:textColor="#36EE46"
+			android:ems="20"
+			android:textAllCaps="false"
+			android:onClick="onBtn"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/btn3"
+			android:id="@+id/button3"
+			android:ems="20"
+			android:background="#000000"
+			android:layout_marginTop="10dp"
+			android:layout_gravity="center"
+			android:textColor="#36EE46"
+			android:textAllCaps="false"
+			android:onClick="onBtn"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MTK IMEI Generator</string>
+	<string name="about">XDA Developers : Gorav Gupta</string>
+    <string name="hlp">
+		* Generate IMEI and copy.\n
+		* Open MTK Engineer Mode.\n
+		* Check Connectivity tab.\n
+		* CDS Information.\n
+		* Radio Information.\n
+		* Select Phone(exp. Phone 1, 2...)\n
+		* Type AT+EGMR=1,7,"\""New IMEI Number"\""\n
+		* Send command and reboot.</string>
+	<string name="tv">IMEI</string>
+	<string name="btn">Generate</string>
+	<string name="btn2">Copy</string>
+	<string name="btn3">MTK Engineer Mod</string>
+	
+</resources>
